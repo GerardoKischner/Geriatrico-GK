@@ -107,3 +107,44 @@ header {
     float: right;
   }
 }
+
+// Estilos HTML Acerca de Nosotros
+// Estilos Grid
+.contenedor-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-bottom: 100px;
+}
+
+// Estilos Cards
+.card {
+  @include estilos-card;
+  &-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    max-width: 100%;
+    height: auto;
+  }
+  &-body {
+    padding: 1rem;
+    p {
+        font-size: 10px;
+        color: #333;
+        font-family: "Lato", sans-serif;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+    }
+  }
+}
+
+h2 {
+  @include estilos-titulo;
+  font-family: "Montserrat", sans-serif;    
+}
+
