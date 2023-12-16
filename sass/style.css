@@ -223,4 +223,73 @@ h3 {
 
 .tarjeta-antes-footer {
   margin-bottom: 150px;
+}
+
+.custom-form {
+  max-width: 400px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+.custom-form .form-group {
+  margin-bottom: 20px;
+}
+.custom-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.custom-form .form-group .form-control {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease-in-out;
+}
+.custom-form .form-group .form-control:focus {
+  border-color: #333333;
+  outline: none;
+}
+.custom-form .btn {
+  padding: 8px 20px;
+  margin-right: 10px;
+  border-radius: 4px;
+  background-color: #abb39c;
+  font-family: "Lato", sans-serif;
+  color: #333333;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+iframe {
+  width: 400px;
+  height: 300px;
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+}
+
+.contenedor {
+  display: flex;
+}
+.contenedor .left-column {
+  flex: 1;
+  padding-right: 20px;
+}
+.contenedor .right-column {
+  flex: 1;
+  padding-left: 20px;
+}
+.contenedor .right-column .titulo-secundario {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  justify-content: flex-start;
+}
+.contenedor .right-column .parrafo-contacto {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+}
+.contenedor .right-column .parrafo-antes-footer {
+  margin-bottom: 200px;
+  font-family: "Lato", sans-serif;
 }/*# sourceMappingURL=style.css.map */

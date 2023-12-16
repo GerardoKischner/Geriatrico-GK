@@ -217,3 +217,81 @@ h3 {
 .tarjeta-antes-footer {
   margin-bottom: 150px;
 }
+
+// Estilos HTML Contacto
+// Estilos Formulario
+.custom-form {
+  max-width: 400px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+
+  .form-group {
+    margin-bottom: 20px;
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .form-control {
+      width: 100%;
+      padding: 8px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      transition: border-color 0.3s ease-in-out;
+
+      &:focus {
+        border-color: #333333;
+        outline: none;
+      }
+    }
+  }
+
+  .btn {
+    padding: 8px 20px;
+    margin-right: 10px;
+    border-radius: 4px;
+    background-color: #abb39c;
+    font-family: "Lato", sans-serif;
+    color: #333333;
+    font-size: 15px;
+    cursor: pointer;
+  }
+}
+
+iframe {
+  width: 400px;
+  height: 300px;
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+}
+
+.contenedor {
+  display: flex;
+
+  .left-column {
+    flex: 1;
+    padding-right: 20px;
+  }
+
+  .right-column {
+    flex: 1;
+    padding-left: 20px;
+
+    .titulo-secundario {
+      @include estilos-titulo;
+      justify-content: flex-start;
+    }
+
+    .parrafo-contacto {
+      font-family: "Lato", sans-serif;
+      font-size: 15px;
+    }
+
+    .parrafo-antes-footer {
+      margin-bottom: 200px;
+      font-family: "Lato", sans-serif;
+    }
+  }
+}
