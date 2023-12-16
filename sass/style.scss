@@ -53,3 +53,57 @@ header {
     margin-left: auto;
   }
 }
+// Estilos titulo principal y párrafo
+.titulo-principal {
+  @include estilos-titulo;
+  color: $colorSecundario;
+  font-size: 40px;
+}
+.parrafo-principal,
+.parrafo-secundario {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+// Estilo de Imagen Principal
+.contenedor-principal {
+  display: flex;
+  justify-content: center;
+  img {
+    width: 75%;
+    height: auto;
+  }
+}
+
+// Estilos Footer
+.site-footer {
+  background-color: $colorPrincipal;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  p {
+    margin: 0;
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+  }
+  .social-icons {
+    margin-top: 20px;
+    a {
+      text-decoration: none;
+      color: $colorSecundario;
+      font-size: 25px;
+      margin-right: 20px;
+      padding: 0px 15px;
+    }
+  }
+  .quick-links {
+    margin-top: 30px;
+    float: right;
+  }
+}
