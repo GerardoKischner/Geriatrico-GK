@@ -148,4 +148,47 @@ h2 {
   justify-content: center;
   font-size: 25px;
   font-family: "Montserrat", sans-serif;
+}
+
+.servicios-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto 0;
+  height: 500px;
+  max-width: 1200px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 18rem;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: #333333;
+  display: flex;
+  justify-content: center;
+  background-color: #abb39c;
+}
+
+.list-group-flush {
+  padding-left: 0;
+}
+
+.list-group-item {
+  font-size: 16px;
+  color: #555;
+  font-family: "Lato", sans-serif;
+  display: list-item;
+  list-style: disc inside;
+  margin-left: 0;
+  padding-left: 15px;
 }/*# sourceMappingURL=style.css.map */
