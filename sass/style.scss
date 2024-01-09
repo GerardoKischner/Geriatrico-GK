@@ -478,6 +478,8 @@ iframe {
   .servicios-grid {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
+    margin-bottom: 100px;
+    margin-left: 15px;
   }
 
   .card {
